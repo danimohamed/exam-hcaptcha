@@ -35,7 +35,7 @@ app.post('/api/signup', async (req, res) => {
     }
 
     console.log(`Nouvel utilisateur inscrit : ${name} - ${email}`);
-    res.json({ message: 'Inscription réussie par  mahdi ben ali..' });
+    res.json({ message: 'Inscription réussie par Dani Moahmed..' });
   } catch (error) {
     console.error('Erreur lors de la vérification reCAPTCHA:', error);
     res.status(500).json({ error: 'Erreur serveur lors de la vérification reCAPTCHA.' });
