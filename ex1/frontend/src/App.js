@@ -14,7 +14,7 @@ const App = () => {
         setCsrfToken(res.data.csrfToken);
       })
       .catch(() => {
-        setResult({ type: 'error', message: 'Erreur lors de la récupération du token CSRF. -MALIKA KADMIRI' });
+        setResult({ type: 'error', message: 'Erreur lors de la récupération du token CSRF. -Dani Moahmed' });
       });S
   }, []);
 
@@ -41,7 +41,7 @@ const App = () => {
       setResult({ type: 'success', message: response.data.message });
       setForm({ oldPassword: '', newPassword: '' });
     } catch (error) {
-      const msg = error.response?.data?.error || 'Erreur lors de la requête. MALIKA KADMIRI';
+      const msg = error.response?.data?.error || 'Erreur lors de la requête. Dani Moahmed';
       setResult({ type: 'error', message: msg });
     }
   };
