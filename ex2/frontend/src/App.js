@@ -33,7 +33,7 @@ const App = () => {
         }
       );
 
-      setResult({ type: 'success', message: `Inscription réussie par mahdi ben ali.` });
+      setResult({ type: 'success', message: `Inscription réussie par Dani Moahmed.` });
       setForm({ name: '', email: '', password: '' });
       setRecaptchaToken(null);
     } catch (error) {
