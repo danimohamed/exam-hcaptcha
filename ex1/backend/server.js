@@ -31,9 +31,9 @@ app.post('/api/change-password', (req, res) => {
   // Simulation d'une vérification et mise à jour de mot de passe
   if (oldPassword === '123') {
     console.log(`Mot de passe changé en : ${newPassword}`);
-    return res.json({ message: 'Mot de passe mis à jour avec succès. - MALIKA KADMIRI' });
+    return res.json({ message: 'Mot de passe mis à jour avec succès. - Dani Moahmed' });
   } else {
-    return res.status(400).json({ error: 'Ancien mot de passe incorrect. - MALIKA KADMIRI' });
+    return res.status(400).json({ error: 'Ancien mot de passe incorrect. - Dani Moahmed' });
   }
 });
 
